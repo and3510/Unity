@@ -10,7 +10,7 @@ public class MoverNaEsteira : MonoBehaviour
         // Se NÃO estiver sendo segurado pelo mouse, ele anda para a direita
         if (!estaSendoSegurado)
         {
-            transform.Translate(Vector3.left * velocidade * Time.deltaTime);
+            transform.Translate(Vector3.right * velocidade * Time.deltaTime);
         }
     }
 

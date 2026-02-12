@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Produto
   - Sacola
+  - Produto Lido
   layers:
   - Default
   - TransparentFX

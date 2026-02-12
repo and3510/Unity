@@ -3,7 +3,7 @@ using UnityEngine;
 public class GeradorProdutos : MonoBehaviour
 {
     public GameObject produtoModelo; // Aqui vai o seu Prefab do Arroz
-    public float tempoEntreProdutos = 3f; // A cada 3 segundos nasce um
+    public float tempoEntreProdutos = 50f; // A cada 3 segundos nasce um
 
     private float cronometro;
 
